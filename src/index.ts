@@ -1,2 +1,2 @@
-// Notify — unified notification routing for MeshVibe
-// Public API will be exported here.
+export { send, getChannels } from "./router.js";
+export type { Priority, Channel, NotifyResult } from "./types.js";
